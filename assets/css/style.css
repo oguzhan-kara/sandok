@@ -226,7 +226,7 @@ input[type="submit"]:focus { outline: 0; color: var(--primary-color); background
 /* Placeholder color */
 ::-webkit-input-placeholder { color: #AEA2A6; }
 :-moz-placeholder { color: #AEA2A6; }
-::-moz-placeholder { color: #AEA2A6; opacity: 1; }
+::-moz-placeholder { color: #AEA2A6; opacity: 1; }/* Since FF19 lowers the opacity of the placeholder by default */ }
 :-ms-input-placeholder { color: #AEA2A6; }
 
 /* Links */
