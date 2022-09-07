@@ -13,7 +13,7 @@ app.use(express.static('public'));
  app.use('/img', express.static(__dirname + 'public/img'))
 
 app.get('/',function(_req,res){
-    res.sendFile(path.join(__dirname+'/views/index.html'));
+    res.sendFile(path.join(__dirname+'/index.html'));
     //__dirname : It will resolve to your project folder.
   });
   app.get('/index',function(_req,res){
