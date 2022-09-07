@@ -101,6 +101,6 @@ app.get('/team',function(_req,res){
   
 app.use(express.static(path.join(__dirname, '/public/css')));
 
-app.listen(process.env.port || 3000);
+app.listen(process.env.port || 80);
 
-console.log('Running at Port 3000');
+console.log('Running at Port 80');
